@@ -1,0 +1,46 @@
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.app
+*.lib
+*.a
+*.ilk
+*.pdb
+*.idb
+*.tlog/
+*.log
+*.tmp
+*.bak
+
+# Visual Studio files
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.vcxproj.FileListAbsolute.txt
+
+# Build directories
+build/
+x64/
+Debug/
+Release/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code settings
+.vscode/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Others
+.DS_Store
