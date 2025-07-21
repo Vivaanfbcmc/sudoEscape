@@ -36,6 +36,7 @@ Makefile
 
 # VS Code settings
 .vscode/
+.vs/
 
 # System files
 Thumbs.db
