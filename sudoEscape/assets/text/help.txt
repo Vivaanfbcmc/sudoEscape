@@ -1,0 +1,1 @@
+Type 'help' in game for available commands.

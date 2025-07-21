@@ -1,0 +1,79 @@
+{
+    "level_info": {
+        "name": "The Compromised Server",
+        "description": "A cybersecurity breach investigation at DataCorp",
+        "starting_location": "desktop",
+        "goal": "Find the exit code: EXIT_CODE_CYBER_SECURE_2025"
+    },
+    "locations": {
+        "desktop": {
+            "name": "Desktop",
+            "description": "Server desktop with folders and shortcuts",
+            "items": [
+                {
+                    "name": "Logs",
+                    "type": "folder",
+                    "description": "System logs",
+                    "items": [
+                        {
+                            "name": "access.log",
+                            "type": "file",
+                            "content": "203.0.113.45 - - [15/Jan/2025:10:21] \"POST /upload.php\" 200 -"
+                        },
+                        {
+                            "name": "auth.log",
+                            "type": "file",
+                            "content": "Failed SSH login for backup from 203.0.113.45"
+                        },
+                        {
+                            "name": "ftp.log",
+                            "type": "file",
+                            "content": "Successful FTP login for backup from 203.0.113.45"
+                        }
+                    ]
+                },
+                {
+                    "name": "Documents",
+                    "type": "folder",
+                    "description": "Investigation documents",
+                    "items": [
+                        {
+                            "name": "incident_report.txt",
+                            "type": "file",
+                            "content": "Partial report..."
+                        },
+                        {
+                            "name": ".hidden_notes",
+                            "type": "file",
+                            "content": "Gur cnffjbeq vf va gur onqvcfr onpxhc-- abg va cnegvphyne \n(NOTE: ROT13)"
+                        }
+                    ]
+                },
+                {
+                    "name": "Backups",
+                    "type": "folder",
+                    "description": "Server backups",
+                    "items": [
+                        {
+                            "name": "database.backup",
+                            "type": "file",
+                            "content": "RVhJVF9DT0RFX0NZQkVSX1NFQ1VSRV8yMDI1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Scripts",
+                    "type": "folder",
+                    "description": "Server maintenance scripts",
+                    "items": [
+                        {
+                            "name": "cleanup.sh",
+                            "type": "file",
+                            "content": "#!/bin/bash\n# suspicious cleanup script"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
